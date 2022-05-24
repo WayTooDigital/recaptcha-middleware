@@ -1,0 +1,35 @@
+{
+  "name": "recaptcha-middleware",
+  "version": "1.0.0",
+  "description": "",
+  "repository": "https://github.com/WayTooDigital/recaptcha-middleware.git",
+  "author": "Emilio Arcioni (WayTooDigital)",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "module": "dist/index.es.js",
+  "jsnext:main": "dist/index.es.js",
+  "engines": {
+    "node": ">=8",
+    "npm": ">=5"
+  },
+  "scripts": {
+    "build": "rollup -c",
+    "start": "rollup -c -w"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.18.0",
+    "@babel/plugin-transform-runtime": "^7.18.0",
+    "@babel/preset-env": "^7.18.0",
+    "rollup": "^2.74.1",
+    "rollup-plugin-babel": "^4.4.0",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-json": "^4.0.0",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "rollup-plugin-url": "^3.0.1"
+  },
+  "peerDependencies": {},
+  "dependencies": {
+    "axios": "^0.27.2"
+  }
+}
